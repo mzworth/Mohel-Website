@@ -207,8 +207,17 @@ p:last-child { margin-bottom: 0; }
   text-align: center;
 }
 .page-hero h1 { color: white; }
-.page-hero p { color: rgba(255,255,255,0.85); max-width: 800px; margin: 0 auto; font-size: 1.2rem; white-space: normal; }
-/* 5. Sections */
+.page-hero p { 
+    color: rgba(255,255,255,0.85); 
+    max-width: 800px; 
+    width: 100%;
+    margin: 0 auto; 
+    font-size: 1.2rem; 
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 1rem;
+  }/* 5. Sections */
 .section { padding: 4.5rem 1.5rem; }
 .section-alt { background: var(--color-bg-alt); }
 .section-inner { max-width: var(--max-width); margin: 0 auto; }
