@@ -39,10 +39,11 @@
 html { scroll-behavior: smooth; }
 body {
     font-family: var(--font-body);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.8;
     color: var(--color-text);
     background-color: var(--color-bg);
+    overflow-x: hidden;
   }
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--color-primary); text-decoration: none; transition: color var(--transition); }
