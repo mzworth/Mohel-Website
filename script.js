@@ -36,18 +36,4 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Contact form submission handler
-  // NOTE: This form currently does not send emails.
-  // To enable form submission, replace the action attribute in contact.html
-  // with your email service endpoint (e.g., Formspree, EmailJS, or your own backend).
-  const contactForm = document.querySelector('#contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      // TODO: Replace this with actual form submission logic
-      // e.g., fetch('/submit', { method: 'POST', body: new FormData(contactForm) })
-      alert('Thank you for your message. We will be in touch shortly.');
-      contactForm.reset();
-    });
-  }
 });
