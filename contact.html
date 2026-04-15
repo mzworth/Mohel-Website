@@ -76,7 +76,10 @@
             The provider's email address will be set up once the domain is registered.
             PLACEHOLDER: [PROVIDER EMAIL TO BE INSERTED — configure with domain-specific email]
           -->
-          <form id="contact-form" action="#" method="POST" novalidate>
+          <form id="contact-form" action="https://formsubmit.co/drmax@thetorontomohel.com" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New inquiry — The Toronto Mohel" />
+            <input type="hidden" name="_next" value="https://www.thetorontomohel.com/contact.html" />
+            <input type="hidden" name="_captcha" value="false" />
             <div class="form-group">
               <label for="full-name">Full Name <span style="color:#c0392b;">*</span></label>
               <input
@@ -200,17 +203,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-```
-
----
-
-Save that. Now two final small files — create `robots.txt` and paste:
-
----
-
-**FILE 8: `robots.txt`**
-```
-User-agent: *
-Allow: /
-
-Sitemap: https://www.YOUR-DOMAIN-HERE.com/sitemap.xml
