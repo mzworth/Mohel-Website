@@ -182,7 +182,7 @@ p:last-child { margin-bottom: 0; }
     align-items: center;
     text-align: left;
   }
-  .hero-headshot-placeholder {
+  .hero-headshot {
     width: 340px; height: 340px;
     border-radius: 50%;
     border: 4px solid var(--color-accent);
@@ -508,7 +508,7 @@ p:last-child { margin-bottom: 0; }
   }
   .hero-text { align-items: center; }
   .hero-text .hero-sub { text-align: center; }
-  .hero-headshot-placeholder { margin: 0 auto; }
+  .hero-headshot { margin: 0 auto; }
 }
 
 @media (max-width: 600px) {
