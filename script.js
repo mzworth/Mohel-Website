@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (hamburger && mobileNav) {
     hamburger.addEventListener('click', function () {
-      hamburger.classList.toggle('open');
+      const isOpen = hamburger.classList.toggle('open');
       mobileNav.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
   }
 

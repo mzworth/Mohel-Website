@@ -56,7 +56,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -104,7 +104,7 @@
           <img
             src="headshot.jpg"
             alt="Dr. Max Zworth, MD, FRCPC — Toronto mohel and emergency physician"
-            style="width:100%; border-radius:var(--border-radius); margin-bottom:1.25rem; object-fit:cover; object-position: center top;"
+            style="width:100%; border-radius:var(--radius-lg); margin-bottom:1.25rem; object-fit:cover; object-position: center top;"
           />
           <div class="credentials-card">
             <h3>Credentials</h3>
@@ -142,38 +142,59 @@
           <p>To learn more about how I perform the procedure and what to expect on the day, visit the <a href="circumcision-information.html">brit milah procedure page</a> and the <a href="ritual-circumcision.html">ceremony overview</a>.</p>
           <h2>Training & Certification</h2>
 
-          <ul style="list-style:none; margin: 1.5rem 0;">
-            <li style="display:flex; gap:0.75rem; align-items:flex-start; padding:0.85rem 0; border-bottom:1px solid var(--color-border);">
-              <span style="color:var(--color-accent); font-size:1.2rem; flex-shrink:0;">✦</span>
-              <div><strong>FRCPC — Emergency Medicine</strong><br><span style="color:var(--color-text-light); font-size:0.92rem;">Certified through the Royal College of Physicians and Surgeons of Canada in Emergency Medicine, University of Ottawa (2025).</span></div>
+          <ul class="credential-list">
+            <li>
+              <span class="cred-icon">✦</span>
+              <div>
+                <div class="cred-title">FRCPC — Emergency Medicine</div>
+                <div class="cred-detail">Certified through the Royal College of Physicians and Surgeons of Canada in Emergency Medicine, University of Ottawa (2025).</div>
+              </div>
             </li>
-            <li style="display:flex; gap:0.75rem; align-items:flex-start; padding:0.85rem 0; border-bottom:1px solid var(--color-border);">
-              <span style="color:var(--color-accent); font-size:1.2rem; flex-shrink:0;">✦</span>
-              <div><strong>MD, Michael G. DeGroote School of Medicine, McMaster University (2020)</strong><br><span style="color:var(--color-text-light); font-size:0.92rem;">Graduate of one of Canada's most respected medical programs.</span></div>
+            <li>
+              <span class="cred-icon">✦</span>
+              <div>
+                <div class="cred-title">MD, Michael G. DeGroote School of Medicine, McMaster University (2020)</div>
+                <div class="cred-detail">Graduate of one of Canada's most respected medical programs.</div>
+              </div>
             </li>
-            <li style="display:flex; gap:0.75rem; align-items:flex-start; padding:0.85rem 0; border-bottom:1px solid var(--color-border);">
-              <span style="color:var(--color-accent); font-size:1.2rem; flex-shrink:0;">✦</span>
-              <div><strong>CIRCLES Course — Circumcision Learning Experience Using Simulation</strong><br><span style="color:var(--color-text-light); font-size:0.92rem;">Formal simulation-based neonatal circumcision training through the Department of Urology at The Hospital for Sick Children (SickKids).</span></div>
+            <li>
+              <span class="cred-icon">✦</span>
+              <div>
+                <div class="cred-title">CIRCLES Course — Circumcision Learning Experience Using Simulation</div>
+                <div class="cred-detail">Formal simulation-based neonatal circumcision training through the Department of Urology at The Hospital for Sick Children (SickKids).</div>
+              </div>
             </li>
-            <li style="display:flex; gap:0.75rem; align-items:flex-start; padding:0.85rem 0; border-bottom:1px solid var(--color-border);">
-              <span style="color:var(--color-accent); font-size:1.2rem; flex-shrink:0;">✦</span>
-              <div><strong>Apprenticeship Training — The Circumcision Clinic</strong><br><span style="color:var(--color-text-light); font-size:0.92rem;">Hands-on training under Dr. David Levin, pediatric anesthesiologist and founder and director of The Circumcision Clinic.</span></div>
+            <li>
+              <span class="cred-icon">✦</span>
+              <div>
+                <div class="cred-title">Apprenticeship Training — The Circumcision Clinic</div>
+                <div class="cred-detail">Hands-on training under Dr. David Levin, pediatric anesthesiologist and founder and director of The Circumcision Clinic.</div>
+              </div>
             </li>
-            <li style="display:flex; gap:0.75rem; align-items:flex-start; padding:0.85rem 0; border-bottom:1px solid var(--color-border);">
-              <span style="color:var(--color-accent); font-size:1.2rem; flex-shrink:0;">✦</span>
-              <div><strong>Expertise Recognized by the College of Physicians and Surgeons of Ontario (CPSO)</strong><br><span style="color:var(--color-text-light); font-size:0.92rem;">Training and expertise in neonatal circumcision formally recognized by the CPSO.</span></div>
+            <li>
+              <span class="cred-icon">✦</span>
+              <div>
+                <div class="cred-title">Expertise Recognized by the College of Physicians and Surgeons of Ontario (CPSO)</div>
+                <div class="cred-detail">Training and expertise in neonatal circumcision formally recognized by the CPSO.</div>
+              </div>
             </li>
-            <li style="display:flex; gap:0.75rem; align-items:flex-start; padding:0.85rem 0; border-bottom:1px solid var(--color-border);">
-              <span style="color:var(--color-accent); font-size:1.2rem; flex-shrink:0;">✦</span>
-              <div><strong>BRIT KODESH Course — Rabbinical Assembly, Atlanta (2026)</strong><br><span style="color:var(--color-text-light); font-size:0.92rem;">Week-long intensive program training physicians in all halachic and ritual dimensions of brit milah.</span></div>
+            <li>
+              <span class="cred-icon">✦</span>
+              <div>
+                <div class="cred-title">BRIT KODESH Course — Rabbinical Assembly, Atlanta (2026)</div>
+                <div class="cred-detail">Week-long intensive program training physicians in all halachic and ritual dimensions of brit milah.</div>
+              </div>
             </li>
-            <li style="display:flex; gap:0.75rem; align-items:flex-start; padding:0.85rem 0;">
-              <span style="color:var(--color-accent); font-size:1.2rem; flex-shrink:0;">✦</span>
-              <div><strong>Ordained & Certified Mohel — Rabbinical Assembly, Conservative Movement</strong><br><span style="color:var(--color-text-light); font-size:0.92rem;">Ordained and certified to perform brit milah in full accordance with Conservative halacha.</span></div>
+            <li>
+              <span class="cred-icon">✦</span>
+              <div>
+                <div class="cred-title">Ordained &amp; Certified Mohel — Rabbinical Assembly, Conservative Movement</div>
+                <div class="cred-detail">Ordained and certified to perform brit milah in full accordance with Conservative halacha.</div>
+              </div>
             </li>
           </ul>
 
-          <div style="margin-top:2rem; text-align:center;">
+          <div class="cta-block">
             <a href="contact.html" class="btn btn-primary">Get in Touch</a>
           </div>
         </div>
