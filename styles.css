@@ -246,6 +246,24 @@ p:last-child { margin-bottom: 0; }
 .card h3 { font-size: 1.1rem; margin-bottom: 0.4rem; }
 .card p { font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 0; }
 
+/* Testimonials */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.testimonial {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  padding: 1.75rem 1.5rem;
+}
+.testimonial .stars { color: #e8b429; font-size: 1rem; letter-spacing: 2px; margin-bottom: 0.75rem; }
+.testimonial p { font-size: 0.95rem; color: var(--color-text-light); font-style: italic; margin-bottom: 0; }
+.testimonials-cta { text-align: center; margin-top: 2rem; }
+.testimonials-cta a { color: var(--color-accent); font-weight: 600; }
+
 /* Intake box */
 .intake-box {
   background: var(--color-white);
